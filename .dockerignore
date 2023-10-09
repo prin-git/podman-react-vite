@@ -1,0 +1,15 @@
+.git
+.vscode
+**/node_modules/
+*/build/
+*/dist/
+*/.git/
+.gitignore
+Dockerfile.prod
+Dockerfile.dev
+.editorconfig
+*.yaml
+README.node_modulesbuild
+.env
+.gitignore
+node_modules

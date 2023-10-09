@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+ podman-react-vite:
+  image: podman-react-dev-ima
+  build:
+   dockerfile: Dockerfile.dev
+  container_name: podman-react-dev-c
+  ports:
+   - "8080:3000"
+  environment:
+    - NODE_ENV=development

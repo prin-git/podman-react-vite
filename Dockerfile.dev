@@ -1,0 +1,6 @@
+FROM node:alpine
+WORKDIR /podman-react-vite
+COPY . /podman-react-vite
+RUN npm ci
+RUN npm run build
+CMD ["npm", "start"]
