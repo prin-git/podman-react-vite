@@ -3,7 +3,6 @@
 - bash
 - WSL
 - Ubuntu
-- docker compose
 - Docker
 - PIP 
 - podman compose
