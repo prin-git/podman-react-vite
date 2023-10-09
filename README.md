@@ -8,6 +8,7 @@
 - podman compose
 
 ### step 1 :
+- make sure the folder name is podman-react-vite
 - podman app open
 ###  Step 2 :
 - open bash 
