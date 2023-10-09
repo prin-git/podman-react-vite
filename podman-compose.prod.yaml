@@ -2,9 +2,9 @@ version: '3.8'
 services:
  podman-react-vite:
   image: poadman-react-prod-ima
+  container_name: podman-react-prod-c
   build: 
    dockerfile: Dockerfile.prod
-  container_name: podman-react-prod-c
   ports:
     - "8081:80"
   environment:
